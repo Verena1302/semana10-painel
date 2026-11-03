@@ -77,7 +77,7 @@ function App() {
   const vazia = terminou && alunos.length === 0
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div className="painel">
         <Cabecalho />
 

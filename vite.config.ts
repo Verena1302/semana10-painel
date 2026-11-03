@@ -112,5 +112,7 @@ function servidorDaTurma(): Plugin {
 
 // https://vite.dev/config/
 export default defineConfig({
+  // no GitHub Pages o site mora em /semana10-painel/ (a pipeline passa BASE_PATH); local continua em /
+  base: process.env.BASE_PATH ?? '/',
   plugins: [react(), servidorDaTurma()],
 })
