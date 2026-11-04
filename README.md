@@ -16,3 +16,5 @@ semana passada, o `.env` dele é **outro** (`/alunos.json`): use este projeto da
 **apostila** (PDF `apostila_painel_que_diz_a_verdade_semana10`).
 
 **Força Jovem! 🤞**
+
+<!-- teste de pull_request: deve rodar so o job CI -->
